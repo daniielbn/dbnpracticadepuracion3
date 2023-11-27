@@ -10,8 +10,8 @@ public class ejercicio1 {
         //Creamos un array de caracteres usando el metodo de String
         char caracteres[]=frase.toCharArray();
         //Recorremos la frase y cogemos cada caracter y lo metemos en el array
-        for(int i=1;i<frase.length();i++){
-            System.out.println("En la posicion del array : " + i+1 + "tenemos el caracter : " + caracteres[i+1]);
+        for(int i=0;i<frase.length();i++){
+            System.out.println("En la posicion del array : " + i/*+1*/ + "tenemos el caracter : " + caracteres[i/*+1*/]);
         }
     }
 
